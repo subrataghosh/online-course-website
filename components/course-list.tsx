@@ -194,12 +194,22 @@ export function CourseList() {
         </div>
 
         <Tabs defaultValue="school" className="w-full">
-          <TabsList className="grid w-full max-w-2xl mx-auto grid-cols-4 mb-12">
-            <TabsTrigger value="school">School Level</TabsTrigger>
-            <TabsTrigger value="college">College Level</TabsTrigger>
-            <TabsTrigger value="professional">Professional</TabsTrigger>
-            <TabsTrigger value="other">Other</TabsTrigger>
-          </TabsList>
+          <div className="overflow-x-auto mb-12 -mx-4 px-4 sm:mx-0 sm:px-0">
+            <TabsList className="inline-flex w-auto min-w-full sm:grid sm:w-full sm:max-w-2xl sm:mx-auto sm:grid-cols-4 h-auto">
+              <TabsTrigger value="school" className="whitespace-nowrap px-4 py-2 sm:px-3">
+                School Level
+              </TabsTrigger>
+              <TabsTrigger value="college" className="whitespace-nowrap px-4 py-2 sm:px-3">
+                College Level
+              </TabsTrigger>
+              <TabsTrigger value="professional" className="whitespace-nowrap px-4 py-2 sm:px-3">
+                Professional
+              </TabsTrigger>
+              <TabsTrigger value="other" className="whitespace-nowrap px-4 py-2 sm:px-3">
+                Other
+              </TabsTrigger>
+            </TabsList>
+          </div>
 
           <TabsContent value="school">
             <div className="mb-6">

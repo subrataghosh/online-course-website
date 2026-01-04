@@ -4,23 +4,23 @@ import { Award, BookOpen, Users } from "lucide-react"
 
 const instructors = [
   {
-    name: "Dr. Sarah Johnson",
+    name: "Chirantan Kundu",
     specialty: "Computer Science & Programming",
-    experience: "15+ years",
+    experience: "25+ years",
     students: "10K+",
     courses: 12,
     initials: "SJ",
   },
   {
-    name: "Prof. Michael Chen",
+    name: "Partha Pratim Saha",
     specialty: "Cloud Computing & Networking",
-    experience: "12+ years",
+    experience: "22+ years",
     students: "8K+",
     courses: 9,
     initials: "MC",
   },
   {
-    name: "Emily Rodriguez",
+    name: "Partha Pratim Saha",
     specialty: "Photography & Visual Arts",
     experience: "10+ years",
     students: "6K+",
@@ -28,9 +28,9 @@ const instructors = [
     initials: "ER",
   },
   {
-    name: "David Kumar",
+    name: "Chirantan Kundu",
     specialty: "Mathematics & Science",
-    experience: "18+ years",
+    experience: "10+ years",
     students: "12K+",
     courses: 15,
     initials: "DK",
