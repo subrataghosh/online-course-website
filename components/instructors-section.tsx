@@ -9,7 +9,7 @@ const instructors = [
     experience: "25+ years",
     students: "10K+",
     courses: 12,
-    initials: "SJ",
+    initials: "CK",
   },
   {
     name: "Partha Pratim Saha",
@@ -17,7 +17,7 @@ const instructors = [
     experience: "22+ years",
     students: "8K+",
     courses: 9,
-    initials: "MC",
+    initials: "PPS",
   },
   {
     name: "Partha Pratim Saha",
@@ -25,7 +25,7 @@ const instructors = [
     experience: "10+ years",
     students: "6K+",
     courses: 7,
-    initials: "ER",
+    initials: "PPS",
   },
   {
     name: "Chirantan Kundu",
@@ -33,7 +33,7 @@ const instructors = [
     experience: "10+ years",
     students: "12K+",
     courses: 15,
-    initials: "DK",
+    initials: "CK",
   },
 ]
 
